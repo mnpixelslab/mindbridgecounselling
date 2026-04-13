@@ -6,7 +6,7 @@ interface HeroProps {
 
 export default function Hero({ profileImage }: HeroProps) {
   const handleBooking = () => {
-    window.open('https://calendly.com/manreetqsi', '_blank');
+    window.open('https://calendly.com/mindbridgecounselling', '_blank');
   };
 
   return (
