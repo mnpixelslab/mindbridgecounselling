@@ -2,7 +2,7 @@ import { Calendar, ArrowRight } from 'lucide-react';
 
 export default function Booking() {
   const handleBooking = () => {
-    window.open('https://calendly.com/manreetqsi', '_blank');
+    window.open('https://calendly.com/mindbridgecounselling', '_blank');
   };
 
   return (
