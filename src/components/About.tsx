@@ -26,7 +26,7 @@ export default function About({ profileImage }: AboutProps) {
 
           <div className="flex-1">
             <p className="text-lg text-slate-600 leading-relaxed mb-6">
-              Hi, I'm <span className="font-semibold text-slate-800">Manreet Kaur</span>, a counsellor dedicated to helping individuals overcome personal and emotional challenges. My approach is empathetic, practical, and focused on helping you move forward with clarity and confidence.
+              Hi, I'm <span className="font-semibold text-slate-800">Manreet</span>, a counsellor dedicated to helping individuals overcome personal and emotional challenges. My approach is empathetic, practical, and focused on helping you move forward with clarity and confidence.
             </p>
             <p className="text-lg text-slate-600 leading-relaxed">
               Whether you're dealing with stress, navigating relationships, or seeking personal growth, I'm here to provide a supportive space where you can explore your thoughts and feelings without judgment.
