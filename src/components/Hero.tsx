@@ -17,7 +17,7 @@ export default function Hero({ profileImage }: HeroProps) {
         backgroundImage: `url('/ChatGPT_Image_Apr_8,_2026,_03_38_30_PM.png')`,
         backgroundSize: 'cover',
         backgroundPosition: 'right center',
-                backgroundAttachment: 'fixed',
+        backgroundAttachment: 'fixed',
       }}
     >
       <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-transparent pointer-events-none"></div>

@@ -20,13 +20,17 @@ export default function Navigation() {
     { name: 'Testimonials', id: 'testimonials' },
     { name: 'Book Session', id: 'booking' },
     { name: 'FAQ', id: 'faq' },
+    { name: 'Contact', id: 'contact' },
   ];
 
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-sm z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="text-xl font-semibold text-slate-800">Mind Bridge Counselling</div>
+          <div className="flex items-center gap-3">
+            <img src="/Gemini_Generated_Image_w8ilg9w8ilg9w8il-removebg-preview.png" alt="Mind Bridge Counselling" className="h-12 w-auto" />
+            <span className="text-xl font-semibold text-slate-800"></span>
+          </div>
 
           <div className="hidden md:flex space-x-8">
             {navItems.map((item) => (

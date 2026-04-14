@@ -5,6 +5,7 @@ import HowItWorks from './components/HowItWorks';
 import Testimonials from './components/Testimonials';
 import Booking from './components/Booking';
 import FAQ from './components/FAQ';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Navigation from './components/Navigation';
 
@@ -22,6 +23,7 @@ function App() {
       <Testimonials />
       <Booking />
       <FAQ />
+      <Contact />
       <Footer />
     </div>
   );
