@@ -23,14 +23,21 @@ export default function About({ profileImage }: AboutProps) {
               </div>
             )}
           </div>
-
+ 
           <div className="flex-1">
+            <h1
+                id="about-heading"
+                className="font-display text-3xl md:text-4xl lg:text-5xl text-foreground mb-4 leading-tight">
+                
+                A counsellor who truly{' '}
+                <span className="italic text-primary">listens.</span>
+              </h1>
             <p className="text-lg text-slate-600 leading-relaxed mb-6">
-              Hi, I'm <span className="font-semibold text-slate-800">Manreet</span>, a counsellor dedicated to helping individuals overcome personal and emotional challenges. My approach is empathetic, practical, and focused on helping you move forward with clarity and confidence.
+                           Hi, I'm <span className="font-semibold text-slate-800">Manreet</span>, a counsellor dedicated to helping individuals overcome personal and emotional challenges. My approach is empathetic, practical, and focused on helping you move forward with clarity and confidence.
             </p>
             <p className="text-lg text-slate-600 leading-relaxed">
               Whether you're dealing with stress, navigating relationships, or seeking personal growth, I'm here to provide a supportive space where you can explore your thoughts and feelings without judgment.
-            </p>
+                          </p> 
           </div>
         </div>
       </div>
