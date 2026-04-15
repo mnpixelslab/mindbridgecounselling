@@ -76,7 +76,7 @@ This message was sent from the Mind Bridge Counselling contact form.
         },
         body: JSON.stringify({
           from: 'noreply@mindbridge.com',
-          to: 'mindbridgecounselling@outlook.com',
+          to: 'info@mindbridgecounselling.com',
           subject: `New Contact: ${data.name}`,
           html: emailHtml,
           text: emailText,
