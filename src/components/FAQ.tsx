@@ -21,6 +21,10 @@ export default function FAQ() {
       question: 'How do online sessions work?',
       answer: 'Online sessions are conducted via secure video conferencing. After booking, you\'ll receive a link to join the session. All you need is a private space, a stable internet connection, and a device with a camera and microphone.',
     },
+     {
+      question: 'How many sessions will I need?',
+      answer: 'This varies by individual. Some clients find clarity in 3–5 sessions; others prefer ongoing support. We\'ll discuss what makes sense for your goals at the end of our first session — there\'s no minimum commitment.',
+    },
   ];
 
   return (
