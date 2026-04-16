@@ -7,7 +7,7 @@ export default function HowItWorks() {
       title: (
         <>
           <a
-            href="https://calendly.com/your-link"
+            href="https://calendly.com/mindbridgecounselling"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 font-semibold hover:underline"
