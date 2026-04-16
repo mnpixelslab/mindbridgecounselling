@@ -3,19 +3,19 @@ import { Quote } from 'lucide-react';
 export default function Testimonials() {
   const testimonials = [
     {
-      name: 'Holly Tallman',
-      text: 'Manreet helped me navigate a really difficult time in my life. Her guidance was both practical and compassionate. I finally feel like I have the tools to handle stress and anxiety.',
-      role: 'Client',
-    },
-    {
       name: 'AK Grewal',
-      text: 'I was struggling with career decisions and felt completely lost. After just a few sessions, I had clarity and confidence to move forward. Highly recommend!',
-      role: 'Client',
+      text: 'Manreet helped me navigate a really difficult time in my life. Her guidance was both practical and compassionate. I finally feel like I have the tools to handle stress and anxiety.',
+      role: 'Homemaker/Mother',
     },
     {
-      name: 'Priya R.',
+      name: 'Holly Tallman',
+      text: 'I was struggling with career decisions and felt completely lost. After just a few sessions, I had clarity and confidence to move forward. Highly recommend!',
+      role: 'Teacher',
+    },
+    {
+      name: 'Elia R.',
       text: 'The sessions were transformative. Manreet creates such a safe and supportive space. I learned so much about myself and feel more empowered in my relationships.',
-      role: 'Client',
+      role: 'Civil Engineer',
     },
   ];
 
