@@ -15,8 +15,8 @@ export default function Hero({ profileImage }: HeroProps) {
       className="pt-24 pb-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden"
       style={{
         backgroundImage: `url('/ChatGPT_Image_Apr_8,_2026,_03_38_30_PM.png')`,
-        backgroundSize: '120%',          // 👈 zoom to crop plants
-        backgroundPosition: '85% center', // 👈 shift girl right
+        backgroundSize: 'cover',
+        backgroundPosition: '75% center', // 👈 CHANGED HERE
         backgroundAttachment: 'fixed',
       }}
     >
