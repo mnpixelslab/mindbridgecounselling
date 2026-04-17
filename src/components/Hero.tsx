@@ -7,14 +7,26 @@ interface HeroProps {
 
 export default function Hero({ profileImage }: HeroProps) {
   const [offsetY, setOffsetY] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setOffsetY(window.scrollY * 0.3); // 👈 control speed here
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
     };
 
+    const handleScroll = () => {
+      setOffsetY(window.scrollY * 0.3);
+    };
+
+    handleResize(); // set initially
+
+    window.addEventListener('resize', handleResize);
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, []);
 
   const handleBooking = () => {
@@ -27,8 +39,10 @@ export default function Hero({ profileImage }: HeroProps) {
       className="pt-24 pb-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden"
       style={{
         backgroundImage: `url('/ChatGPT_Image_Apr_8,_2026,_03_38_30_PM.png')`,
-        backgroundSize: '120%',
-        backgroundPosition: `85% ${offsetY}px`, // 👈 dynamic parallax
+        backgroundSize: isMobile ? '120%' : 'cover', // ✅ key fix
+        backgroundPosition: isMobile
+          ? `85% ${offsetY}px`   // mobile: zoomed + shifted
+          : `70% ${offsetY}px`,  // desktop: more natural framing
         backgroundRepeat: 'no-repeat',
       }}
     >
