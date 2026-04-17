@@ -15,10 +15,10 @@ export default function Hero({ profileImage }: HeroProps) {
     };
 
     const handleScroll = () => {
-      setOffsetY(window.scrollY * 0.3);
+      setOffsetY(window.scrollY * 0.25); // smooth parallax
     };
 
-    handleResize(); // set initially
+    handleResize();
 
     window.addEventListener('resize', handleResize);
     window.addEventListener('scroll', handleScroll);
@@ -33,28 +33,36 @@ export default function Hero({ profileImage }: HeroProps) {
     window.open('https://calendly.com/mindbridgecounselling', '_blank');
   };
 
+  // 🎯 tweak only these if needed
+  const desktopX = '68%';     // horizontal alignment (moves girl left/right)
+  const desktopYOffset = -140; // vertical lift (moves girl up)
+
   return (
     <section
       id="hero"
       className="pt-24 pb-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden"
       style={{
         backgroundImage: `url('/ChatGPT_Image_Apr_8,_2026,_03_38_30_PM.png')`,
-        backgroundSize: isMobile ? '120%' : 'cover', // ✅ key fix
+        backgroundSize: isMobile ? '120%' : 'cover',
         backgroundPosition: isMobile
-          ? `85% ${offsetY}px`   // mobile: zoomed + shifted
-          : `70% ${offsetY}px`,  // desktop: more natural framing
+          ? `85% ${offsetY}px` // mobile: tighter crop
+          : `${desktopX} ${offsetY + desktopYOffset}px`, // desktop: perfectly placed
         backgroundRepeat: 'no-repeat',
       }}
     >
+      {/* overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-transparent pointer-events-none"></div>
 
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="flex-1 text-center lg:text-left">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-600 leading-tight mb-4">
-              Clarity, Confidence, <br />and Direction<br />
+              Clarity, Confidence, <br />
+              and Direction
+              <br />
               <span className="text-3xl sm:text-4xl lg:text-5xl text-slate-500">
-                — Personal Counselling<br /> That Works
+                — Personal Counselling
+                <br /> That Works
               </span>
             </h1>
 
