@@ -1,10 +1,22 @@
 import { Calendar } from 'lucide-react';
+import { useEffect, useState } from 'react';
 
 interface HeroProps {
   profileImage: string;
 }
 
 export default function Hero({ profileImage }: HeroProps) {
+  const [offsetY, setOffsetY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setOffsetY(window.scrollY * 0.3); // 👈 control speed here
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   const handleBooking = () => {
     window.open('https://calendly.com/mindbridgecounselling', '_blank');
   };
@@ -15,9 +27,9 @@ export default function Hero({ profileImage }: HeroProps) {
       className="pt-24 pb-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden"
       style={{
         backgroundImage: `url('/ChatGPT_Image_Apr_8,_2026,_03_38_30_PM.png')`,
-        backgroundSize: 'cover',
-        backgroundPosition: '75% center', // 👈 CHANGED HERE
-        backgroundAttachment: 'fixed',
+        backgroundSize: '120%',
+        backgroundPosition: `85% ${offsetY}px`, // 👈 dynamic parallax
+        backgroundRepeat: 'no-repeat',
       }}
     >
       <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-transparent pointer-events-none"></div>
@@ -26,7 +38,7 @@ export default function Hero({ profileImage }: HeroProps) {
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="flex-1 text-center lg:text-left">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-600 leading-tight mb-4">
-              Clarity, Confidence, <br />and Direction<br />  
+              Clarity, Confidence, <br />and Direction<br />
               <span className="text-3xl sm:text-4xl lg:text-5xl text-slate-500">
                 — Personal Counselling<br /> That Works
               </span>
