@@ -26,17 +26,14 @@ export default function Contact() {
     setError('');
 
     try {
-      const response = await fetch(
-        `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/send-contact-email`,
-        {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${import.meta.env.VITE_SUPABASE_ANON_KEY}`,
-          },
-          body: JSON.stringify(formData),
-        }
-      );
+      const response = await fetch('https://formspree.io/f/mlganpja', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
 
       if (!response.ok) {
         throw new Error('Failed to send message');
@@ -44,6 +41,7 @@ export default function Contact() {
 
       setSubmitted(true);
       setFormData({ name: '', email: '', phone: '', message: '' });
+
       setTimeout(() => setSubmitted(false), 5000);
     } catch (err) {
       setError('Failed to send message. Please try again.');
@@ -57,17 +55,19 @@ export default function Contact() {
     <section id="contact" className="py-16 md:py-24 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12">
+          
+          {/* Left Side */}
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">Get in Touch</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
+              Get in Touch
+            </h2>
             <p className="text-lg text-slate-600 mb-8">
-              Have questions or ready to begin your counselling journey? Reach out to us and we'll get back to you shortly.
+              Have questions or ready to begin your counselling journey? Reach out and we’ll get back to you shortly.
             </p>
 
             <div className="space-y-6">
               <div className="flex gap-4">
-                <div className="flex-shrink-0">
-                  <Mail className="w-6 h-6 text-blue-600 mt-1" />
-                </div>
+                <Mail className="w-6 h-6 text-blue-600 mt-1" />
                 <div>
                   <h3 className="font-semibold text-slate-900">Email</h3>
                   <p className="text-slate-600">info@mindbridgecounselling.com</p>
@@ -75,9 +75,7 @@ export default function Contact() {
               </div>
 
               <div className="flex gap-4">
-                <div className="flex-shrink-0">
-                  <Phone className="w-6 h-6 text-blue-600 mt-1" />
-                </div>
+                <Phone className="w-6 h-6 text-blue-600 mt-1" />
                 <div>
                   <h3 className="font-semibold text-slate-900">Phone</h3>
                   <p className="text-slate-600">Available on request</p>
@@ -85,9 +83,7 @@ export default function Contact() {
               </div>
 
               <div className="flex gap-4">
-                <div className="flex-shrink-0">
-                  <MapPin className="w-6 h-6 text-blue-600 mt-1" />
-                </div>
+                <MapPin className="w-6 h-6 text-blue-600 mt-1" />
                 <div>
                   <h3 className="font-semibold text-slate-900">Location</h3>
                   <p className="text-slate-600">Online & In-Person Sessions</p>
@@ -96,10 +92,14 @@ export default function Contact() {
             </div>
           </div>
 
+          {/* Right Side Form */}
           <div className="bg-white rounded-lg shadow-lg p-8">
+
             {submitted && (
               <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg">
-                <p className="text-green-800">Thank you! Your message has been sent successfully.</p>
+                <p className="text-green-800">
+                  Thank you! Your message has been sent successfully.
+                </p>
               </div>
             )}
 
@@ -110,65 +110,64 @@ export default function Contact() {
             )}
 
             <form onSubmit={handleSubmit} className="space-y-5">
+              
+              <input type="hidden" name="_subject" value="New Contact Form Submission" />
+
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-slate-900 mb-2">
+                <label className="block text-sm font-medium text-slate-900 mb-2">
                   Full Name
                 </label>
                 <input
                   type="text"
-                  id="name"
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                   placeholder="Your name"
                 />
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-slate-900 mb-2">
+                <label className="block text-sm font-medium text-slate-900 mb-2">
                   Email Address
                 </label>
                 <input
                   type="email"
-                  id="email"
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                   placeholder="your@email.com"
                 />
               </div>
 
               <div>
-                <label htmlFor="phone" className="block text-sm font-medium text-slate-900 mb-2">
+                <label className="block text-sm font-medium text-slate-900 mb-2">
                   Phone Number
                 </label>
                 <input
                   type="tel"
-                  id="phone"
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                   placeholder="Your phone number"
                 />
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-slate-900 mb-2">
+                <label className="block text-sm font-medium text-slate-900 mb-2">
                   Message
                 </label>
                 <textarea
-                  id="message"
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
                   required
                   rows={5}
-                  className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                   placeholder="Tell us how we can help..."
                 />
               </div>
@@ -176,11 +175,12 @@ export default function Contact() {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full bg-blue-600 text-white font-semibold py-3 rounded-lg hover:bg-blue-700 transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full bg-blue-600 text-white font-semibold py-3 rounded-lg hover:bg-blue-700 disabled:opacity-50"
               >
                 {loading ? 'Sending...' : 'Send Message'}
               </button>
             </form>
+
           </div>
         </div>
       </div>
