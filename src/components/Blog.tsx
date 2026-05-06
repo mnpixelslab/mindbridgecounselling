@@ -316,7 +316,7 @@ export default function Blog() {
 
   <p>
     Support is available, and recovery is possible with the right help and strategies.
-  </p>
+  </p><br></br>
            <p>
     👉{" "}
     <a
