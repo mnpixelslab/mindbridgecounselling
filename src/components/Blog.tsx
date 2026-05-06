@@ -99,40 +99,39 @@ export default function Blog() {
 <p>What matters is how those challenges are handled. </p><br></br>
 <p>Couples therapy isn’t a last resort—it’s a smart, proactive way to strengthen your relationship, improve communication, and reconnect before things feel unmanageable. </p><br></br>
 <p>Here are <b>seven signs</b> it might be time to seek support: </p><br></br>
-________________________________________
+<hr className="my-6 border-slate-300" />
 <p><b>1. You Keep Misunderstanding Each Other</b></p><br></br>
 <p>It feels like no matter how much you talk, you’re not really being heard. Conversations turn into arguments, or your intentions get lost along the way. </p><br></br>
 <p>Over time, this can lead to frustration and emotional distance. Therapy helps you learn how to truly listen, express yourself clearly, and understand each other better. </p><br></br>
-________________________________________
+<hr className="my-6 border-slate-300" />
 <p><b>2. You Feel Like Housemates, Not Partners</b></p><br></br>
 <p>Your relationship has become routine—focused on responsibilities like bills, chores, or parenting. </p><br></br>
 <p>The emotional and romantic connection that once came naturally now feels distant or missing. Therapy can help bring back that sense of closeness and shared purpose. </p><br></br>
-________________________________________
-<p><b>3. You Avoid Important Conversations</b></p><br></br>
+<hr className="my-6 border-slate-300" />ns</b></p><br></br>
 <p>Some topics feel too risky to bring up, so you stay silent to keep the peace. </p><br></br>
 <p>But avoiding issues doesn’t resolve them—it just pushes them deeper. A therapist creates a safe space where both of you can speak openly without fear of escalation. </p><br></br>
-________________________________________
+<hr className="my-6 border-slate-300" />
 <p><b>4. You’re Stuck in the Same Arguments</b></p><br></br>
 <p>The same issues keep coming up again and again, with no real resolution. </p><br></br>
 <p>This usually points to deeper, unresolved concerns. Therapy helps uncover what’s really driving those conflicts and shows you healthier ways to work through them. </p><br></br>
-________________________________________
+<hr className="my-6 border-slate-300" />
 <p><b>5. Intimacy Has Faded</b></p><br></br>
 <p>You feel emotionally or physically disconnected. Conversations are surface-level, affection is limited, and closeness feels forced or absent. </p><br></br>
-<p>This can be one of the loneliest experiences in a relationship. Therapy can help rebuild trust, connection, and intimacy step by step.
-________________________________________
+<p>This can be one of the loneliest experiences in a relationship. Therapy can help rebuild trust, connection, and intimacy step by step.</p><br></br>
+<hr className="my-6 border-slate-300" />
 <p><b>6. Trust Has Been Damaged</b></p><br></br>
 <p>Whether it’s due to dishonesty, broken promises, or past hurt, trust is no longer what it used to be. </p><br></br>
 <p>Rebuilding trust takes time, effort, and guidance. Therapy offers a structured and supportive environment to repair that foundation together. </p><br></br>
-________________________________________
+<hr className="my-6 border-slate-300" />
 <p><b>7. You’re Considering Giving Up</b></p><br></br>
 <p>If thoughts of separation or “maybe this isn’t working anymore” are becoming frequent, it’s an important signal. </p><br></br>
 <p>It doesn’t always mean the relationship is over—but it does mean something needs attention. Therapy can help you both gain clarity, whether that means rebuilding or making informed decisions about the future. </p><br></br>
-________________________________________
+<hr className="my-6 border-slate-300" />
 <p><b>Final Thoughts</b></p><br></br>
 <p>Noticing these signs doesn’t mean your relationship is failing. It means your relationship needs care. </p><br></br>
 <p>Seeking help is not weakness—it’s commitment. It shows that you’re willing to invest in understanding each other and building something stronger. </p><br></br>
 <p>You don’t have to wait until things fall apart. </p><br></br>
-________________________________________
+<hr className="my-6 border-slate-300" />
 <p><b>Take the First Step Together</b></p><br></br>
 <p>If any of these signs feel familiar, it might be time to talk to someone who can help guide you forward. </p><br></br>
 <p>Healing, clarity, and reconnection are possible—with the right support. </p><br></br>
