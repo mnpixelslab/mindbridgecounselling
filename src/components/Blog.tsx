@@ -155,6 +155,7 @@ export default function Blog() {
       content: (
         <>
           <>
+<>
   <p>We often tell ourselves, “I’m okay… it’s not that serious.”</p>
   <p>So we keep going. We smile, we manage, we delay dealing with what’s really going on inside.</p>
 
@@ -247,7 +248,7 @@ export default function Blog() {
   </p>
 
   <p>Your future self will be glad you did.</p>
-</>
+
         </>
       )
     },
@@ -259,100 +260,110 @@ export default function Blog() {
       author: "Mind Bridge Counselling Team",
       content: (
         <>
-          <>
-  <p>We often tell ourselves, “I’m okay… it’s not that serious.”</p>
-  <p>So we keep going. We smile, we manage, we delay dealing with what’s really going on inside.</p>
+          <p>
+            Self-care is not selfish—it's essential. In our fast-paced world, prioritizing your mental wellness through intentional self-care practices can transform your life, improve your resilience, and help you show up as your best self.
+          </p>
 
-  <p>But the truth is simple:</p>
-  <p><strong>You don’t have to reach your lowest point to deserve support.</strong></p>
+          <h2>What is Self-Care?</h2>
+          <p>
+            Self-care encompasses any intentional action you take to maintain or improve your physical, mental, and emotional wellbeing. It's about treating yourself with the same compassion and care you would offer a good friend.
+          </p>
 
-  <hr className="my-6 border-slate-300" />
+          <h2>Physical Self-Care</h2>
 
-  <h3>💭 Maybe This Is Your Wake-Up Call</h3>
+          <h3>Nutrition</h3>
+          <p>
+            Eat whole foods that nourish your body. A balanced diet rich in fruits, vegetables, and lean proteins supports both physical and mental health. Avoid using food as your only coping mechanism.
+          </p>
 
-  <p>
-    Not everything shows up as a visible crisis. Sometimes it’s quieter, harder to explain.
-  </p>
+          <h3>Exercise</h3>
+          <p>
+            Move your body in ways you enjoy. This could be yoga, dancing, swimming, or walking—whatever feels good to you. Regular movement improves mood, energy, and overall health.
+          </p>
 
-  <p>Maybe you’ve noticed yourself:</p>
-  <ul>
-    <li>Getting irritated with people you care about</li>
-    <li>Feeling emotionally distant or numb</li>
-    <li>Struggling with motivation, even for simple things</li>
-    <li>Acting like everything is fine while feeling overwhelmed inside</li>
-  </ul>
+          <h3>Sleep Hygiene</h3>
+          <p>
+            Prioritize quality sleep by establishing a consistent bedtime routine, keeping your bedroom cool and dark, and avoiding caffeine before bed.
+          </p>
 
-  <p>
-    Individually, these moments might seem small. But together, they can leave you feeling drained and disconnected.
-  </p>
+          <h2>Emotional Self-Care</h2>
 
-  <p>
-    If this feels familiar, it’s not something to ignore — it’s something to listen to.
-  </p>
+          <h3>Express Your Feelings</h3>
+          <p>
+            Write in a journal, talk to a trusted friend, or speak with a therapist. Expressing emotions helps you process them and prevents emotional buildup.
+          </p>
 
-  <hr className="my-6 border-slate-300" />
+          <h3>Set Healthy Boundaries</h3>
+          <p>
+            Say no to things that drain your energy. Boundaries protect your emotional wellbeing and show self-respect.
+          </p>
 
-  <h3>🧠 Support Early, Heal Deeper</h3>
+          <h3>Practice Self-Compassion</h3>
+          <p>
+            Treat yourself kindly, especially during difficult times. Replace self-criticism with understanding and encouragement.
+          </p>
 
-  <p>
-    There’s a common misconception that therapy is only for when things fall apart. In reality, it’s one of the most powerful tools to prevent that from happening.
-  </p>
+          <h2>Mental Self-Care</h2>
 
-  <p>Reaching out early can help you:</p>
-  <ul>
-    <li>Understand your thoughts and emotions more clearly</li>
-    <li>Develop healthier ways to cope with stress</li>
-    <li>Strengthen your emotional resilience</li>
-    <li>Feel more grounded, balanced, and in control</li>
-  </ul>
+          <h3>Mindfulness and Meditation</h3>
+          <p>
+            These practices calm your mind and reduce anxiety. Even 5-10 minutes daily can make a significant difference.
+          </p>
 
-  <p>You don’t need a breaking point to begin rebuilding.</p>
+          <h3>Learning and Growth</h3>
+          <p>
+            Engage your mind through reading, learning new skills, or pursuing hobbies. Mental stimulation improves mood and prevents stagnation.
+          </p>
 
-  <hr className="my-6 border-slate-300" />
+          <h3>Limit Negative Input</h3>
+          <p>
+            Reduce time on social media, negative news, or toxic relationships. Your mental health depends on what you expose yourself to.
+          </p>
 
-  <h3>🌿 You Don’t Have to Do This Alone</h3>
+          <h2>Social Self-Care</h2>
 
-  <p>
-    You deserve a space where you can be honest without fear of judgment.
-  </p>
-  <p>
-    A space where you’re heard, understood, and supported.
-  </p>
-  <p>
-    Whether you’re feeling overwhelmed, stuck, or simply tired of holding everything in — this is a good place to start.
-  </p>
+          <h3>Nurture Relationships</h3>
+          <p>
+            Spend quality time with people who uplift and support you. Meaningful connections are vital for wellbeing.
+          </p>
 
-  <hr className="my-6 border-slate-300" />
+          <h3>Set Healthy Boundaries in Relationships</h3>
+          <p>
+            It's okay to be selective about who gets your time and energy. Protect yourself from emotionally draining relationships.
+          </p>
 
-  <h3>✨ Take the First Step Before It Gets Harder</h3>
+          <h2>Spiritual Self-Care</h2>
 
-  <p>Healing doesn’t have to wait for a crisis.</p>
-  <p>You are allowed to seek help simply because you want to feel better.</p>
-  <p>Start now — not later, not someday.</p>
-  <p>
-    Because taking care of yourself today can change everything about your tomorrow.
-  </p>
+          <h3>Connect with Purpose</h3>
+          <p>
+            Whether through religion, nature, art, or service, finding meaning and purpose enhances overall wellbeing.
+          </p>
 
-  <hr className="my-6 border-slate-300" />
+          <h3>Gratitude Practice</h3>
+          <p>
+            Regularly acknowledge what you're grateful for. This practice shifts your focus toward the positive aspects of your life.
+          </p>
 
-  <h3>Ready to begin?</h3>
+          <h2>Creating Your Self-Care Routine</h2>
 
-  <p>Take that first step and reach out for support.</p>
+          <h3>Start Small</h3>
+          <p>
+            You don't need an elaborate routine. Begin with 2-3 simple practices that resonate with you.
+          </p>
 
-  <p>
-    👉{" "}
-    <a
-      href="https://mindbridgecounselling.com/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-blue-600 underline"
-    >
-      https://mindbridgecounselling.com/
-    </a>
-  </p>
+          <h3>Make It a Priority</h3>
+          <p>
+            Schedule self-care like you would any other important appointment. Consistency is key.
+          </p>
 
-  <p>Your future self will be glad you did.</p>
+          <h3>Listen to Your Body and Mind</h3>
+          <p>
+            Your self-care needs may change based on circumstances. Stay flexible and adapt as needed.
+          </p>
 
+          <p>
+            Remember, self-care is not a luxury—it's a necessity. By investing in your wellbeing today, you're building a foundation for a healthier, happier life.
+          </p>
         </>
       )
     }
