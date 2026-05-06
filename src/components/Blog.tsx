@@ -4,25 +4,25 @@ export default function Blog() {
       id: 1,
       title: "Understanding Anxiety: A Practical Guide",
       thumbnail: "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?w=600&h=600&fit=crop",
-      url: "https://example.com/blog/understanding-anxiety"
+      url: "/blog1.html"
     },
     {
       id: 2,
       title: "Building Healthy Relationships",
       thumbnail: "https://images.pexels.com/photos/3807508/pexels-photo-3807508.jpeg?w=600&h=600&fit=crop",
-      url: "https://example.com/blog/healthy-relationships"
+      url: "/blog2.html"
     },
     {
       id: 3,
       title: "Stress Management Techniques",
       thumbnail: "https://images.pexels.com/photos/3807490/pexels-photo-3807490.jpeg?w=600&h=600&fit=crop",
-      url: "https://example.com/blog/stress-management"
+      url: "/blog3.html"
     },
     {
       id: 4,
       title: "Self-Care and Mental Wellness",
       thumbnail: "https://images.pexels.com/photos/3807513/pexels-photo-3807513.jpeg?w=600&h=600&fit=crop",
-      url: "https://example.com/blog/self-care-wellness"
+      url: "/blog4.html"
     }
   ];
 

@@ -22,10 +22,10 @@ function App() {
       <Services />
       <HowItWorks />
       <Testimonials />
-      <Blog />
       <Booking />
       <FAQ />
       <Contact />
+      <Blog />
       <Footer />
     </div>
   );
