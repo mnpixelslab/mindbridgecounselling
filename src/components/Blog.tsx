@@ -77,7 +77,6 @@ export default function Blog() {
 <p>Give yourself the chance to be heard. </p><br></br>
 <p><b>Feeling seen starts here. Book a session today. </b></p><br></br>
 <p>Let this be the moment you give yourself permission to be heard. </p>
-
                   </>
       )
     },
