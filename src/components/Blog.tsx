@@ -89,79 +89,55 @@ export default function Blog() {
     },
     {
       id: 2,
-      title: "Building Healthy Relationships",
+      title: "7 Signs It Might Be Time for Couples Therapy",
       thumbnail: "/ChatGPT_Image_May_5,_2026,_08_43_29_AM.png",
       date: "May 2026",
       author: "Mind Bridge Counselling Team",
       content: (
         <>
-          <p>
-            Healthy relationships are fundamental to our wellbeing. Whether romantic, familial, or friendships, the quality of our relationships significantly impacts our mental health, happiness, and overall life satisfaction.
-          </p>
+          <p>Every relationship has its ups and downs. Even strong, loving couples go through phases of tension, distance, or misunderstanding. That’s normal.</p><br></br>
+<p>What matters is how those challenges are handled. </p><br></br>
+<p>Couples therapy isn’t a last resort—it’s a smart, proactive way to strengthen your relationship, improve communication, and reconnect before things feel unmanageable. </p><br></br>
+<p>Here are <b>seven signs</b> it might be time to seek support: </p><br></br>
+________________________________________
+<p><b>1. You Keep Misunderstanding Each Other</b></p><br></br>
+<p>It feels like no matter how much you talk, you’re not really being heard. Conversations turn into arguments, or your intentions get lost along the way. </p><br></br>
+<p>Over time, this can lead to frustration and emotional distance. Therapy helps you learn how to truly listen, express yourself clearly, and understand each other better. </p><br></br>
+________________________________________
+<p><b>2. You Feel Like Housemates, Not Partners</b></p><br></br>
+<p>Your relationship has become routine—focused on responsibilities like bills, chores, or parenting. </p><br></br>
+<p>The emotional and romantic connection that once came naturally now feels distant or missing. Therapy can help bring back that sense of closeness and shared purpose. </p><br></br>
+________________________________________
+<p><b>3. You Avoid Important Conversations</b></p><br></br>
+<p>Some topics feel too risky to bring up, so you stay silent to keep the peace. </p><br></br>
+<p>But avoiding issues doesn’t resolve them—it just pushes them deeper. A therapist creates a safe space where both of you can speak openly without fear of escalation. </p><br></br>
+________________________________________
+<p><b>4. You’re Stuck in the Same Arguments</b></p><br></br>
+<p>The same issues keep coming up again and again, with no real resolution. </p><br></br>
+<p>This usually points to deeper, unresolved concerns. Therapy helps uncover what’s really driving those conflicts and shows you healthier ways to work through them. </p><br></br>
+________________________________________
+<p><b>5. Intimacy Has Faded</b></p><br></br>
+<p>You feel emotionally or physically disconnected. Conversations are surface-level, affection is limited, and closeness feels forced or absent. </p><br></br>
+<p>This can be one of the loneliest experiences in a relationship. Therapy can help rebuild trust, connection, and intimacy step by step.
+________________________________________
+<p><b>6. Trust Has Been Damaged</b></p><br></br>
+<p>Whether it’s due to dishonesty, broken promises, or past hurt, trust is no longer what it used to be. </p><br></br>
+<p>Rebuilding trust takes time, effort, and guidance. Therapy offers a structured and supportive environment to repair that foundation together. </p><br></br>
+________________________________________
+<p><b>7. You’re Considering Giving Up</b></p><br></br>
+<p>If thoughts of separation or “maybe this isn’t working anymore” are becoming frequent, <p>it’s an important signal. </p><br></br>
+<p>It doesn’t always mean the relationship is over—but it does mean something needs attention. Therapy can help you both gain clarity, whether that means rebuilding or making informed decisions about the future. </p><br></br>
+________________________________________
+<p><b>Final Thoughts
+<p>Noticing these signs doesn’t mean your relationship is failing. It means your relationship needs care. </p><br></br>
+<p>Seeking help is not weakness—it’s commitment. It shows that you’re willing to invest in understanding each other and building something stronger. </p><br></br>
+<p>You don’t have to wait until things fall apart. </p><br></br>
+________________________________________
+<p><b>Take the First Step Together
+<p>If any of these signs feel familiar, it might be time to talk to someone who can help guide you forward. </p><br></br>
+<p>Healing, clarity, and reconnection are possible—with the right support. </p><br></br>
+<p>👉 Book your session today. </p><br></br>
 
-          <h2>The Foundation of Healthy Relationships</h2>
-          <p>
-            Healthy relationships are built on several core principles that create a safe, supportive, and nurturing environment for both people involved.
-          </p>
-
-          <h2>Trust and Honesty</h2>
-          <p>
-            Trust is the cornerstone of any healthy relationship. It develops through consistent honesty, reliability, and transparency. When both parties feel they can be authentic and vulnerable, the relationship deepens.
-          </p>
-
-          <h2>Effective Communication</h2>
-          <p>
-            Clear, respectful communication prevents misunderstandings and builds connection. This means:
-          </p>
-          <ul>
-            <li>Listening actively without judgment</li>
-            <li>Expressing your feelings using "I" statements</li>
-            <li>Asking clarifying questions</li>
-            <li>Being willing to have difficult conversations</li>
-            <li>Validating each other's emotions</li>
-          </ul>
-
-          <h2>Boundaries and Respect</h2>
-          <p>
-            Healthy boundaries protect your emotional wellbeing and show respect for others. Setting boundaries means:
-          </p>
-          <ul>
-            <li>Clearly stating your needs and limits</li>
-            <li>Respecting others' boundaries</li>
-            <li>Saying "no" without guilt</li>
-            <li>Maintaining your individual identity</li>
-          </ul>
-
-          <h2>Emotional Support</h2>
-          <p>
-            Being emotionally available and supportive during both good times and challenges strengthens the bond. This includes celebrating successes together and supporting each other through difficulties.
-          </p>
-
-          <h2>Conflict Resolution</h2>
-          <p>
-            All relationships experience conflict. What matters is how you handle it. Healthy conflict resolution involves:
-          </p>
-          <ul>
-            <li>Addressing issues promptly and calmly</li>
-            <li>Finding compromise and mutual solutions</li>
-            <li>Focusing on behaviors, not character attacks</li>
-            <li>Apologizing sincerely when you're wrong</li>
-            <li>Forgiving and letting go of resentment</li>
-          </ul>
-
-          <h2>Red Flags to Watch For</h2>
-          <p>
-            Some warning signs of unhealthy relationships include controlling behavior, manipulation, lack of respect, inability to communicate, and any form of abuse. If you notice these patterns, seeking professional guidance is important.
-          </p>
-
-          <h2>Investing in Your Relationships</h2>
-          <p>
-            Healthy relationships require ongoing effort and investment. Schedule quality time together, show appreciation, and continuously work on improving your connection.
-          </p>
-
-          <p>
-            Remember, healthy relationships are not about perfection—they're about genuine connection, mutual respect, and a commitment to growing together.
-          </p>
         </>
       )
     },
