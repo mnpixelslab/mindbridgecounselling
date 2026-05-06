@@ -175,7 +175,7 @@ export default function Blog() {
     },
     {
       id: 3,
-      title: "Stress Management Techniques",
+      title: "Don’t Wait Until It Breaks — Start Healing Now",
       thumbnail: "/14cdd6b4-317c-4a6a-b356-e2c19240dc81.png",
       date: "May 2026",
       author: "Mind Bridge Counselling Team",
