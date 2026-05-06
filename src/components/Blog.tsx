@@ -20,10 +20,10 @@ export default function Blog() {
                   <p>
         Most of us have experienced the opposite. You try to share something real, and the response comes too quickly—solutions, opinions, or a change of subject. Sometimes, it’s subtle. Other times, it feels like you shouldn’t have spoken at all.  </p>
 
-          
+          <br></br>
           <p>
             So you learn to hold things in.
-          </p>
+          </p><br></br>
           <ul>
             <li>Racing thoughts and difficulty concentrating</li>
             <li>Physical tension and muscle tightness</li>
