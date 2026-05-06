@@ -248,12 +248,12 @@ export default function Blog() {
   <p>
     👉{" "}
     <a
-      href="https://mindbridgecounselling.com/"
+      href="https://calendly.com/mindbridgecounselling"
       target="_blank"
       rel="noopener noreferrer"
       className="text-blue-600 font-semibold hover:underline"
     >
-      https://mindbridgecounselling.com/
+      Book your session today
     </a>
   </p><br />
 
@@ -316,6 +316,17 @@ export default function Blog() {
 
   <p>
     Support is available, and recovery is possible with the right help and strategies.
+  </p>
+           <p>
+    👉{" "}
+    <a
+      href="https://calendly.com/mindbridgecounselling"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-600 font-semibold hover:underline"
+    >
+      Book your session today
+    </a>
   </p>
 </>
       )
