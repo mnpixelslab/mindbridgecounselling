@@ -72,7 +72,7 @@ export default function Blog() {
 <p>You deserve that kind of space. </p>
 <p>A place where you don’t have to explain yourself perfectly. </p>
 <p>Where you can pause, reflect, and just be. </p><br></br>
-<p>If you’ve been holding things in, maybe this is your moment to let them out—at your <p>own pace, in your own way. </p><br></br>
+<p>If you’ve been holding things in, maybe this is your moment to let them out—at your own pace, in your own way. </p><br></br>
 <p>Start where you are. </p><br></br>
 <p>Give yourself the chance to be heard. </p><br></br>
 <p><b>Feeling seen starts here. Book a session today. </b></p><br></br>
