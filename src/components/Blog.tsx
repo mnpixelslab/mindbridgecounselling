@@ -23,49 +23,50 @@ export default function Blog() {
           <br></br>
           <p>
             So you learn to hold things in.
-          </p><br></br>
+          </p>
           <ul>
-            <li>Racing thoughts and difficulty concentrating</li>
-            <li>Physical tension and muscle tightness</li>
-            <li>Rapid heartbeat and breathing</li>
-            <li>Sleep disturbances</li>
-            <li>Irritability and mood swings</li>
-            <li>Persistent worry about everyday situations</li>
-          </ul>
-
-          <h2>Practical Management Strategies</h2>
+            <li>To filter.</li>
+            <li>To keep it surface-level.</li>
+                    </ul>
+<br></br>
+          
           <p>
-            Managing anxiety involves both professional support and personal strategies. Here are some practical approaches:
+            But imagine a different kind of moment.
           </p>
 
-          <h3>Breathing Techniques</h3>
+          <br></br>
           <p>
-            Deep breathing activates your parasympathetic nervous system, which calms your body. Try the 4-7-8 breathing technique: inhale for 4 counts, hold for 7, and exhale for 8.
+            You begin to speak, unsure where your thoughts are even going. They come out unstructured, maybe even confusing. You pause, searching for the right words.
           </p>
 
-          <h3>Mindfulness and Meditation</h3>
+          <br></br>
           <p>
-            These practices help you observe anxious thoughts without judgment. Regular meditation can reduce anxiety levels significantly over time.
+            And the person across from you doesn’t interrupt.
+
+
           </p>
 
-          <h3>Physical Activity</h3>
+         
           <p>
-            Exercise releases endorphins and reduces stress hormones. Even a 20-minute walk can improve your mood and anxiety levels.
+            They don’t rush you.
+
           </p>
 
-          <h3>Limiting Caffeine and Alcohol</h3>
+          
           <p>
-            Both substances can trigger or worsen anxiety. Consider reducing your intake and monitoring how you feel.
+          They don’t try to “fix” anything.
           </p>
 
-          <h2>When to Seek Professional Help</h2>
+          <br></br>
           <p>
-            If anxiety is affecting your daily functioning, relationships, or quality of life, professional support can be incredibly beneficial. A qualified counselor or therapist can help you identify triggers, develop coping strategies, and work through underlying causes.
-          </p>
-
+            They simply stay with you.</p>
+<br></br>
           <p>
-            Remember, anxiety is treatable, and seeking help is a sign of strength, not weakness. You don't have to manage this alone.
+            In that space, something unexpected happens. Your thoughts start to settle. What felt overwhelming begins to make a little more sense. You hear yourself more clearly—because someone else is truly listening.
           </p>
+          <br></br>       <p>
+            That kind of presence is rare. And powerful.</p>
+<br></br>
         </>
       )
     },
