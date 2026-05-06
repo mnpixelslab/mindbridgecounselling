@@ -75,7 +75,14 @@ export default function Blog() {
 <p>If you’ve been holding things in, maybe this is your moment to let them out—at your own pace, in your own way. </p><br></br>
 <p>Start where you are. </p><br></br>
 <p>Give yourself the chance to be heard. </p><br></br>
-<p><b>Feeling seen starts here. Book a session today. </b></p><br></br>
+<p><b>Feeling seen starts here. <a
+            href="https://calendly.com/mindbridgecounselling"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 font-semibold hover:underline"
+          >
+            Book a session today.
+          </a>{' '}</b></p><br></br>
 <p>Let this be the moment you give yourself permission to be heard. </p>
                   </>
       )
