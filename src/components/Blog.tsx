@@ -248,7 +248,6 @@ export default function Blog() {
   </p>
 
   <p>Your future self will be glad you did.</p>
-
         </>
       )
     },
