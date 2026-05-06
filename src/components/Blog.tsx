@@ -125,15 +125,15 @@ ________________________________________
 <p>Rebuilding trust takes time, effort, and guidance. Therapy offers a structured and supportive environment to repair that foundation together. </p><br></br>
 ________________________________________
 <p><b>7. You’re Considering Giving Up</b></p><br></br>
-<p>If thoughts of separation or “maybe this isn’t working anymore” are becoming frequent, <p>it’s an important signal. </p><br></br>
+<p>If thoughts of separation or “maybe this isn’t working anymore” are becoming frequent, it’s an important signal. </p><br></br>
 <p>It doesn’t always mean the relationship is over—but it does mean something needs attention. Therapy can help you both gain clarity, whether that means rebuilding or making informed decisions about the future. </p><br></br>
 ________________________________________
-<p><b>Final Thoughts
+<p><b>Final Thoughts</b></p><br></br>
 <p>Noticing these signs doesn’t mean your relationship is failing. It means your relationship needs care. </p><br></br>
 <p>Seeking help is not weakness—it’s commitment. It shows that you’re willing to invest in understanding each other and building something stronger. </p><br></br>
 <p>You don’t have to wait until things fall apart. </p><br></br>
 ________________________________________
-<p><b>Take the First Step Together
+<p><b>Take the First Step Together</b></p><br></br>
 <p>If any of these signs feel familiar, it might be time to talk to someone who can help guide you forward. </p><br></br>
 <p>Healing, clarity, and reconnection are possible—with the right support. </p><br></br>
 <p>👉 Book your session today. </p><br></br>
