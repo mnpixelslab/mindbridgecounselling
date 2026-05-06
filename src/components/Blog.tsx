@@ -136,7 +136,7 @@ ________________________________________
 <p><b>Take the First Step Together</b></p><br></br>
 <p>If any of these signs feel familiar, it might be time to talk to someone who can help guide you forward. </p><br></br>
 <p>Healing, clarity, and reconnection are possible—with the right support. </p><br></br>
-<p>👉 Book your session today. </p><br></br>
+<p>👉 Book your session today.</p><br></br>
 
         </>
       )
