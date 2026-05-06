@@ -263,117 +263,61 @@ export default function Blog() {
     },
     {
       id: 4,
-      title: "Self-Care and Mental Wellness",
+      title: "How to Cope with Panic Attacks",
       thumbnail: "/ChatGPT_Image_May_5,_2026,_09_20_27_AM.png",
       date: "May 2026",
       author: "Mind Bridge Counselling Team",
       content: (
         <>
-          <p>
-            Self-care is not selfish—it's essential. In our fast-paced world, prioritizing your mental wellness through intentional self-care practices can transform your life, improve your resilience, and help you show up as your best self.
-          </p>
+  <p>
+    Panic attacks can feel sudden, intense, and very unsettling. Many people describe them as overwhelming moments of fear that seem to appear out of nowhere. Although they are frightening, they are not dangerous, and they do pass.
+  </p><br />
 
-          <h2>What is Self-Care?</h2>
-          <p>
-            Self-care encompasses any intentional action you take to maintain or improve your physical, mental, and emotional wellbeing. It's about treating yourself with the same compassion and care you would offer a good friend.
-          </p>
+  <p><b>What a Panic Attack Is</b></p><br />
 
-          <h2>Physical Self-Care</h2>
+  <p>
+    A panic attack is a short period of intense anxiety that can include symptoms such as a fast heartbeat, difficulty breathing, sweating, shaking, dizziness, or a sense of losing control. Most episodes peak within a few minutes and then gradually ease, even if they feel longer while happening.
+  </p><br />
 
-          <h3>Nutrition</h3>
-          <p>
-            Eat whole foods that nourish your body. A balanced diet rich in fruits, vegetables, and lean proteins supports both physical and mental health. Avoid using food as your only coping mechanism.
-          </p>
+  <p><b>Ways to Manage Panic in the Moment</b></p><br />
 
-          <h3>Exercise</h3>
-          <p>
-            Move your body in ways you enjoy. This could be yoga, dancing, swimming, or walking—whatever feels good to you. Regular movement improves mood, energy, and overall health.
-          </p>
+  <p><b>Focus on steady breathing</b></p>
+  <p>
+    Try to slow your breathing by making it more regular and controlled. A simple rhythm—inhale, pause briefly, exhale—can help reduce the body’s stress response.
+  </p><br />
 
-          <h3>Sleep Hygiene</h3>
-          <p>
-            Prioritize quality sleep by establishing a consistent bedtime routine, keeping your bedroom cool and dark, and avoiding caffeine before bed.
-          </p>
+  <p><b>Use grounding techniques</b></p>
+  <p>
+    Bring your attention back to your surroundings. Notice what you can see, touch, hear, or feel. Holding an object or feeling your feet firmly on the ground can help you reconnect with the present moment.
+  </p><br />
 
-          <h2>Emotional Self-Care</h2>
+  <p><b>Question the fear response</b></p>
+  <p>
+    Remind yourself that what you’re feeling is temporary and will pass. Panic often creates thoughts that feel urgent or extreme, but they are not facts.
+  </p><br />
 
-          <h3>Express Your Feelings</h3>
-          <p>
-            Write in a journal, talk to a trusted friend, or speak with a therapist. Expressing emotions helps you process them and prevents emotional buildup.
-          </p>
+  <p><b>Stay with the moment</b></p>
+  <p>
+    Instead of resisting the sensations, allow them to rise and fade naturally. This can reduce the intensity over time.
+  </p><br />
 
-          <h3>Set Healthy Boundaries</h3>
-          <p>
-            Say no to things that drain your energy. Boundaries protect your emotional wellbeing and show self-respect.
-          </p>
+  <p><b>Reduce avoidance gradually</b></p>
+  <p>
+    If certain situations trigger panic, facing them step by step—rather than avoiding them completely—can help reduce fear in the long term, especially with professional guidance.
+  </p><br />
 
-          <h3>Practice Self-Compassion</h3>
-          <p>
-            Treat yourself kindly, especially during difficult times. Replace self-criticism with understanding and encouragement.
-          </p>
+  <hr className="my-6 border-slate-300" />
 
-          <h2>Mental Self-Care</h2>
+  <p><b>Getting Support</b></p><br />
 
-          <h3>Mindfulness and Meditation</h3>
-          <p>
-            These practices calm your mind and reduce anxiety. Even 5-10 minutes daily can make a significant difference.
-          </p>
+  <p>
+    If panic attacks happen often or start affecting daily life, speaking with a mental health professional can make a significant difference. Therapy can help you understand triggers, develop coping tools, and build long-term confidence in managing anxiety.
+  </p><br />
 
-          <h3>Learning and Growth</h3>
-          <p>
-            Engage your mind through reading, learning new skills, or pursuing hobbies. Mental stimulation improves mood and prevents stagnation.
-          </p>
-
-          <h3>Limit Negative Input</h3>
-          <p>
-            Reduce time on social media, negative news, or toxic relationships. Your mental health depends on what you expose yourself to.
-          </p>
-
-          <h2>Social Self-Care</h2>
-
-          <h3>Nurture Relationships</h3>
-          <p>
-            Spend quality time with people who uplift and support you. Meaningful connections are vital for wellbeing.
-          </p>
-
-          <h3>Set Healthy Boundaries in Relationships</h3>
-          <p>
-            It's okay to be selective about who gets your time and energy. Protect yourself from emotionally draining relationships.
-          </p>
-
-          <h2>Spiritual Self-Care</h2>
-
-          <h3>Connect with Purpose</h3>
-          <p>
-            Whether through religion, nature, art, or service, finding meaning and purpose enhances overall wellbeing.
-          </p>
-
-          <h3>Gratitude Practice</h3>
-          <p>
-            Regularly acknowledge what you're grateful for. This practice shifts your focus toward the positive aspects of your life.
-          </p>
-
-          <h2>Creating Your Self-Care Routine</h2>
-
-          <h3>Start Small</h3>
-          <p>
-            You don't need an elaborate routine. Begin with 2-3 simple practices that resonate with you.
-          </p>
-
-          <h3>Make It a Priority</h3>
-          <p>
-            Schedule self-care like you would any other important appointment. Consistency is key.
-          </p>
-
-          <h3>Listen to Your Body and Mind</h3>
-          <p>
-            Your self-care needs may change based on circumstances. Stay flexible and adapt as needed.
-          </p>
-
-          <p>
-            Remember, self-care is not a luxury—it's a necessity. By investing in your wellbeing today, you're building a foundation for a healthier, happier life.
-          </p>
-        </>
+  <p>
+    Support is available, and recovery is possible with the right help and strategies.
+  </p>
+</>
       )
     }
   ];
