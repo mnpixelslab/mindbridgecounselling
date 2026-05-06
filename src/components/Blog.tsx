@@ -14,17 +14,15 @@ export default function Blog() {
       content: (
         <>
           <p>
-            Anxiety is one of the most common mental health concerns affecting millions of people worldwide. It's a natural response to stress, but when it becomes overwhelming, it can significantly impact your daily life, relationships, and overall wellbeing.
+            There’s a difference between someone hearing your words… and someone actually understanding you.
           </p>
 
-          <h2>What is Anxiety?</h2>
-          <p>
-            Anxiety is your body's response to perceived threats or dangers. When you feel anxious, your nervous system activates the "fight or flight" response, releasing stress hormones like cortisol and adrenaline. While this response can be helpful in genuinely dangerous situations, chronic anxiety keeps your body in a constant state of alert.
-          </p>
+                  <p>
+        Most of us have experienced the opposite. You try to share something real, and the response comes too quickly—solutions, opinions, or a change of subject. Sometimes, it’s subtle. Other times, it feels like you shouldn’t have spoken at all.  </p>
 
-          <h2>Common Symptoms</h2>
+          
           <p>
-            Anxiety manifests differently for everyone, but common symptoms include:
+            So you learn to hold things in.
           </p>
           <ul>
             <li>Racing thoughts and difficulty concentrating</li>
