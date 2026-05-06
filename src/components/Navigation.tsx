@@ -18,6 +18,7 @@ export default function Navigation() {
     { name: 'Services', id: 'services' },
     { name: 'How It Works', id: 'how-it-works' },
     { name: 'Testimonials', id: 'testimonials' },
+    { name: 'Blog', id: 'blog' },
     { name: 'Book Session', id: 'booking' },
     { name: 'FAQ', id: 'faq' },
     { name: 'Contact', id: 'contact' },
