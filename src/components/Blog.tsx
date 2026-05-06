@@ -107,7 +107,8 @@ export default function Blog() {
 <p><b>2. You Feel Like Housemates, Not Partners</b></p><br></br>
 <p>Your relationship has become routine—focused on responsibilities like bills, chores, or parenting. </p><br></br>
 <p>The emotional and romantic connection that once came naturally now feels distant or missing. Therapy can help bring back that sense of closeness and shared purpose. </p><br></br>
-<hr className="my-6 border-slate-300" />ns</b></p><br></br>
+<hr className="my-6 border-slate-300" />
+<p><b>3. You Avoid Important Conversations</b></p><br></br>
 <p>Some topics feel too risky to bring up, so you stay silent to keep the peace. </p><br></br>
 <p>But avoiding issues doesn’t resolve them—it just pushes them deeper. A therapist creates a safe space where both of you can speak openly without fear of escalation. </p><br></br>
 <hr className="my-6 border-slate-300" />
