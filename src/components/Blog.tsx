@@ -136,12 +136,12 @@ export default function Blog() {
 <p><b>Take the First Step Together</b></p><br></br>
 <p>If any of these signs feel familiar, it might be time to talk to someone who can help guide you forward. </p><br></br>
 <p>Healing, clarity, and reconnection are possible—with the right support. </p><br></br>
-<p><b><a href="https://calendly.com/mindbridgecounselling"
+<p> 👉 <b><a href="https://calendly.com/mindbridgecounselling"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 font-semibold hover:underline"
           >
-           👉 Book your session today.
+          Book your session today.
           </a>{' '}</b></p><br></br>
         </>
       )
