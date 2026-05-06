@@ -7,7 +7,7 @@ export default function Blog() {
   const blogs = [
     {
       id: 1,
-      title: "Understanding Anxiety: A Practical Guide",
+      title: "What It Feels Like to Be Truly Heard",
       thumbnail: "/ChatGPT_Image_May_5,_2026,_08_41_00_PM.png",
       date: "May 2026",
       author: "Mind Bridge Counselling Team",
