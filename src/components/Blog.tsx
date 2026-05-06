@@ -67,6 +67,18 @@ export default function Blog() {
           <br></br>       <p>
             That kind of presence is rare. And powerful.</p>
 <br></br>
+          <p>It’s not about having the perfect response. It’s about creating a moment where you feel safe enough to be honest—without editing yourself.</p><br></br>
+<p>Sometimes, just a gentle question or a quiet acknowledgment is enough to shift everything. Not because it solves the problem instantly, but because it reminds you that you’re not carrying it alone. </p><br></br>
+<p>When you feel understood, even a little, it changes how you relate to your own thoughts and emotions. </p><br></br>
+<p>You deserve that kind of space. </p>
+<p>A place where you don’t have to explain yourself perfectly. </p>
+<p>Where you can pause, reflect, and just be. </p><br></br>
+<p>If you’ve been holding things in, maybe this is your moment to let them out—at your <p>own pace, in your own way. </p><br></br>
+<p>Start where you are. </p><br></br>
+<p>Give yourself the chance to be heard. </p><br></br>
+<p><b>Feeling seen starts here. Book a session today. </b></p><br></br>
+<p>Let this be the moment you give yourself permission to be heard. </p>
+
         </>
       )
     },
