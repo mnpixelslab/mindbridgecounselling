@@ -40,11 +40,11 @@ export default function About({ profileImage }: AboutProps) {
             </h1>
 
             <p className="text-lg text-slate-600 leading-relaxed mb-6">
-              Hi, I'm <span className="font-semibold text-slate-800">Manreet</span>, a counsellor dedicated to helping individuals overcome personal and emotional challenges. My approach is empathetic, practical, and focused on helping you move forward with clarity and confidence.
+              Hi, I'm <span className="font-semibold text-slate-800">Manreet</span>, a counsellor dedicated to helping individuals overcome personal and emotional challenges. My approach is empathetic, practical, and focused on helping you move forward with clarity, confidence, and emotional well-being. I believe in creating a safe and supportive environment where you can openly explore your thoughts and feelings without fear of judgment.
             </p>
 
             <p className="text-lg text-slate-600 leading-relaxed">
-              Whether you're dealing with stress, navigating relationships, or seeking personal growth, I'm here to provide a supportive space where you can explore your thoughts and feelings without judgment.
+              Whether you're dealing with stress, anxiety, relationship difficulties, life transitions, or seeking personal growth, I'm here to support you every step of the way. Together, we can work toward understanding your challenges, building healthier coping strategies, and helping you create positive and meaningful change in your life.
             </p>
 
             {/* Book Session Button */}
