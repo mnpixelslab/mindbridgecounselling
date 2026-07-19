@@ -46,10 +46,6 @@ export default function About({ profileImage }: AboutProps) {
             <p className="text-lg text-slate-600 leading-relaxed">
               Whether you're dealing with stress, anxiety, relationship difficulties, life transitions, or seeking personal growth, I'm here to support you every step of the way. Together, we can work toward understanding your challenges, building healthier coping strategies, and helping you create positive and meaningful change in your life.
             </p>
-            <br></br>
-            <p className="text-lg text-slate-600 leading-relaxed">
-              I understand that every person’s journey is unique, which is why I take a personalised approach to counselling. My goal is to help you feel heard, supported, and empowered while providing guidance that encourages self-awareness, resilience, and lasting personal growth.
-            </p>
 
             {/* Book Session Button */}
             <button
